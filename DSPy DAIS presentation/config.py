@@ -1,0 +1,12 @@
+volume_label = "colnomic_model"
+volume_name = f"/Volumes/austin_choi_demo_catalog/agents/{volume_label}" #update to your volume
+catalog = "austin_choi_demo_catalog" #update to your catalog 
+schema = "agents" #update to your schema 
+model_name = "colNomic_DSA" #update to your preferred model name. You can name this whatever you like
+model_endpoint_name = "colNomic-embedding-generation" #update to your preferred model serving endpoint name. You can name this whatever you like
+embedding_table_name = "colNomic_DSA_embedding"
+embedding_table_name_index = f"{embedding_table_name}_index"
+registered_model_name = f"{catalog}.{schema}.{model_name}" 
+vector_search_endpoint_name = "one-env-shared-endpoint-4"
+beit_model_name = "microsoft_beit_vision_transformer"
+tesseract_model_name = "tesseract_ocr_model"
